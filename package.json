@@ -1,0 +1,34 @@
+{
+  "name": "getting-started-using-a-configuration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@appdirect/public-custom-app-ui": "^0.0.17",
+    "@appdirect/sfb-theme-classic": "^0.0.26",
+    "@appdirect/sfb-theme-components": "^0.0.335",
+    "@appdirect/sfb-theme-plaza": "^0.0.74",
+    "@appdirect/sfb-toolkit": "^4.0.7",
+    "@appdirect/storefront-utils": "^0.0.124",
+    "@appdirect/universal-header": "^2.5.19",
+    "@shopify/app-bridge": "^3.7.9",
+    "appdirect": "^0.0.0",
+    "appdirect-client": "^1.0.1",
+    "appdirect-express": "^0.1.2",
+    "generator-appdirect-connector": "^1.2.0",
+    "lodash": "^4.17.21",
+    "vigneshwaran-react-display-tweets": "^1.1.1"
+  },
+  "devDependencies": {
+    "serve": "^12.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
